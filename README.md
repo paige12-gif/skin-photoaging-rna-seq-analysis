@@ -1,5 +1,6 @@
 # skin-photoaging-Rna-seq-analysis
 RNA-seq differential expression analysis of UV-induced skin photoaging using Python
+![Volcano Plot](figures/volcano_plot.png)
 
 ## Background
 This project analyzes RNA-seq differential expression data from UV-treated human dermal fibroblasts to investigate molecular changes associated with skin photoaging.
