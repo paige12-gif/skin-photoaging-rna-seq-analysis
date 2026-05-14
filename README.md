@@ -1,4 +1,4 @@
-# skin-photoaging-Rna-seq-analysis
+# skin-photoaging-rna-seq-analysis
 RNA-seq differential expression analysis of UV-induced skin photoaging using Python
 ![Volcano Plot](volcano_plot.png)
 
