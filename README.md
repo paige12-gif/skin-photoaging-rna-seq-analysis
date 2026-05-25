@@ -15,10 +15,13 @@ Publicly available differential expression data from GEO dataset GSE119009 were 
 - Heatmap and boxplot visualization
 
 ## Results
-Several extracellular matrix (ECM)-related and inflammation-associated genes showed altered expression patterns following UV treatment.
+Several inflammation-related genes showed overall downregulation following UV treatment, while ECM/collagen-related genes exhibited comparatively smaller expression changes. Differentially expressed genes associated with UV-induced stress responses and extracellular matrix regulation were identified, and expression patterns were visualized using heatmaps and pathway-level comparison plots.
 
-## Biological Interpretation
-The analysis suggests UV-associated transcriptional changes related to extracellular matrix remodeling and inflammatory signaling in skin aging.
+## Biological Interpretation and Limitations
+This project initially expected to observe a typical chronic photoaging expression pattern — including strong inflammatory activation and collagen-related downregulation following UV exposure.
+However, the selected inflammation-related gene groups showed overall downregulation, while ECM/collagen-related genes exhibited relatively limited expression changes. These findings suggest that the dataset may reflect an acute UV stress response or severe cellular damage state, rather than a fully established chronic photoaging phenotype.
+This interpretation is partially consistent with the original study, which also reported broad transcriptional suppression and UV-induced necrotic stress responses in NHDF cells.
+One limitation of this project is that gene grouping was performed manually based on a curated gene selection, rather than through formal pathway enrichment analysis.
 
 ## Tools
 - Python
