@@ -12,13 +12,17 @@ Which coordinated biological processes are altered in UV-exposed dermal fibrobla
 Publicly available differential expression data from GEO dataset GSE119009 were used.
 
 ## Methods
-- DEG filtering using p-value and log2 fold change thresholds
-- Volcano plot visualization
-- ECM- and inflammation-related gene grouping
-- Heatmap and boxplot visualization
+- Differential expression filtering to identify UV-responsive genes
+- Targeted examination of ECM-, inflammatory-, and stress-response-related genes, selected because these processes are central to skin photoaging and fibroblast responses to UV damage
+- Heatmap / boxplot visualization to compare expression patterns across biologically relevant gene groups
 
 ## Results
-Several inflammation-related genes showed overall downregulation following UV treatment, while ECM/collagen-related genes exhibited comparatively smaller expression changes. Differentially expressed genes associated with UV-induced stress responses and extracellular matrix regulation were identified, and expression patterns were visualized using heatmaps and pathway-level comparison plots.
+1. Inflammatory signaling did not show the expected activation pattern
+Several inflammation-related genes showed overall downregulation following UV treatment, rather than the strong inflammatory activation typically expected in chronic photoaging.
+2. ECM-related genes showed relatively modest changes
+Extracellular matrix- and collagen-related genes exhibited comparatively smaller expression changes than expected, suggesting limited transcriptomic evidence of strong ECM remodeling in this dataset.
+3. The overall expression pattern may reflect acute UV stress rather than established photoaging
+Differentially expressed genes associated with UV stress responses and extracellular matrix regulation were identified, and their expression patterns were visualized using heatmaps and grouped comparison plots.
 
 ## Biological Interpretation and Limitations
 This project initially expected to observe a typical chronic photoaging expression pattern — including strong inflammatory activation and collagen-related downregulation following UV exposure.
