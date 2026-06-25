@@ -3,7 +3,10 @@ RNA-seq differential expression analysis of UV-induced skin photoaging using Pyt
 ![Volcano Plot](volcano_plot.png)
 
 ## Background
-This project analyzes RNA-seq differential expression data from UV-treated human dermal fibroblasts to investigate molecular changes associated with skin photoaging.
+This project analyzes RNA-seq differential expression data from UV-treated human dermal fibroblasts to investigate transcriptomic changes associated with skin photoaging. Because UV exposure can influence extracellular matrix regulation, inflammatory signaling, and cellular stress responses, the project focuses on how these biologically relevant processes are altered at the gene expression level.
+
+## Central Question
+Which coordinated biological processes are altered in UV-exposed dermal fibroblasts, and do these transcriptomic changes reflect a chronic photoaging program or an acute UV stress response?
 
 ## Dataset
 Publicly available differential expression data from GEO dataset GSE119009 were used.
